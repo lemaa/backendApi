@@ -48,6 +48,10 @@ run `npm run start:prod`
 # Versioning
 For the versions available, see the tags on this repository.
 
+# Running with Docker
+
+Run on your terminal `docker-compose up -d`. enjoy
+
 # Authors
 Amell Fezai - Initial work
  
