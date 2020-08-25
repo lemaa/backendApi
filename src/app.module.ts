@@ -7,7 +7,7 @@ const dotenv = require('dotenv').config();
 
 @Module({
   imports: [
-    MongooseModule.forRoot(process.env.MONGO_URI, { useNewUrlParser: true }),
+    MongooseModule.forRoot('mongodb://heroku_mzkltl2m:bmp3igbfipkikbsbdrgu13trr5@ds127644.mlab.com:27644/heroku_mzkltl2m', { useNewUrlParser: true }),
     MessageModule
     
   ],
