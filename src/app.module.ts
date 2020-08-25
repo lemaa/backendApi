@@ -7,7 +7,7 @@ const dotenv = require('dotenv').config();
 
 @Module({
   imports: [
-    MongooseModule.forRoot(process.env.MONGO_URL, { useNewUrlParser: true }),
+    MongooseModule.forRoot(process.env.MONGO_URI, { useNewUrlParser: true }),
     MessageModule
     
   ],
