@@ -6,7 +6,7 @@ import { MessageModule } from './message/message.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://192.168.99.104:27017/testdb', { useNewUrlParser: true }),
+    MongooseModule.forRoot(`${process.env.MONGO_URL}`, { useNewUrlParser: true }),
     MessageModule
     
   ],
